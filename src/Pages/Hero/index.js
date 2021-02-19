@@ -12,7 +12,7 @@ function Hero() {
 
     
     return (
-        <div>
+        <div style={{height:"900px"}}>
             
             <NavBar>
                 <NavLogo src={logo}/>
