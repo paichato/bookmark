@@ -12,10 +12,13 @@ align-items:center;
 Button{
     color:red;
     fill:red;
+    width:100px;
     
 }
 
 .navs{
+    padding-left: 30px;
+
     &:hover{
         color:#ff4569;
     }
@@ -29,5 +32,7 @@ src: logo;
 
 `
 export const NavLinks=styled.div`
+
+padding-left: 30px;
 
 `
