@@ -13,7 +13,7 @@ export default createGlobalStyle`
     margin:0;
     font-family: 'Rubik', sans-serif;
     border:0;
-    background:white;
+    
 }
 
 body{
@@ -23,6 +23,7 @@ body{
 html{
     max-width:100vw;
     max-height:100vh;
+    background:white;
 }
 
 body{

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import logo from '../../assets/logo-bookmark.svg'
+import {red} from '@material-ui/core/colors/red'
 
 export const NavBar=styled.nav`
 
@@ -9,6 +10,14 @@ justify-content:space-between;
 
 Button{
     color:red;
+    fill:red;
+    
+}
+
+.navs{
+    &:hover{
+        color:#ff4569;
+    }
 }
 
 `
