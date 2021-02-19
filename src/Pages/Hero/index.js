@@ -22,7 +22,8 @@ function Hero() {
                     <NavMenu useStyles={usePlainNavigationMenuStyles}>
                         <NavItem className="navs">FEATURES</NavItem>
                         <NavItem className="navs">PRICING</NavItem>
-                        <NavItem className="navs">CONTACT</NavItem><NavItem>
+                        <NavItem className="navs">CONTACT</NavItem>
+                        <NavItem className="navs-b">
                             <Button variant="outlined" color="secondary" style={{color:"red"}} >
                             Login
                             </Button>

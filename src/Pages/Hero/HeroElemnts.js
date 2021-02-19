@@ -23,6 +23,9 @@ Button{
         color:#ff4569;
     }
 }
+.navs-b{
+    margin-right:100px;
+}
 
 `
 export const NavLogo=styled.img`
