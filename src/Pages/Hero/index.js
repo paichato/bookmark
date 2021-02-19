@@ -41,8 +41,8 @@ function Hero() {
                            your sites load instantly. Try
                             it for free.</LFP>
                     <LFButtons>
-                        <Button variant="outlined" color="primary"></Button>
-                        <Button variant="outlined" color="secondary"></Button>
+                        <Button  variant="outlined" color="primary">Get it on Chrome</Button>
+                        <Button className="btn-rg" variant="outlined" color="secondary">Get it on Firefox</Button>
                     </LFButtons>
                 </LeftSection>
                 <RightSection>
