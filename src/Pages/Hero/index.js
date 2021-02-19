@@ -1,6 +1,6 @@
 import React from 'react'
-import {NavMenu, NavItem} from '@mui-treasury/components/menu/navigation'
-import {usePlain} from '@mui-treasury/components'
+import {NavMenu, NavItem} from '@mui-treasury/components/menu/navigation';
+import {usePlainNavigationMenuStyles} from '@mui-treasury/styles/navigationMenu/plain';
 
 function Hero() {
     return (
@@ -11,7 +11,12 @@ function Hero() {
 
                 </NavLogo>
                 <NavLinks>
-                    <NavMenu></NavMenu>
+                    <NavMenu useStyles={usePlainNavigationMenuStyles}>
+                        <NavItem>Features</NavItem>
+                        <NavItem>Features</NavItem>
+                        <NavItem>Features</NavItem>
+
+                    </NavMenu>
                 </NavLinks>
             </NavBar>
         </div>
