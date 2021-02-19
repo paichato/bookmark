@@ -12,18 +12,16 @@ function Hero() {
     
     return (
         <div>
-            <Button variant="contained"  color="secondary">
-                            Login
-                            </Button>
+            
             <NavBar>
                 <NavLogo src={logo}/>
 
                 
                 <NavLinks>
                     <NavMenu useStyles={usePlainNavigationMenuStyles}>
-                        <NavItem className="navs">Features</NavItem>
-                        <NavItem className="navs">Features</NavItem>
-                        <NavItem className="navs">Features</NavItem><NavItem>
+                        <NavItem className="navs">FEATURES</NavItem>
+                        <NavItem className="navs">PRICING</NavItem>
+                        <NavItem className="navs">CONTACT</NavItem><NavItem>
                             <Button variant="outlined" color="secondary" style={{color:"red"}} >
                             Login
                             </Button>

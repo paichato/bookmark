@@ -7,6 +7,7 @@ export const NavBar=styled.nav`
 display:flex;
 flex-direction:row;
 justify-content:space-between;
+align-items:center;
 
 Button{
     color:red;
