@@ -94,5 +94,6 @@ export const RightSection=styled.div`
 `
 
 export const RImage=styled.img`
-
+width:100%;
+height:100%;
 `
