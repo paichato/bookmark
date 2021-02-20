@@ -5,6 +5,7 @@ import {twitterTabsStylesHook} from '@mui-treasury/styles/tabs';
 import { LeftSection, LFButtons, LFH1, LFP } from '../Hero/HeroElemnts';
 import tab1 from '../../assets/illustration-features-tab-1.svg';
 import tab2 from '../../assets/illustration-features-tab-2.svg';
+import tab3 from '../../assets/illustration-features-tab-3.svg';
 
 function Features() {
 
@@ -63,7 +64,7 @@ function Features() {
                 <Tabs className="tabs" value={value} onChange={handleChange } >
                     <Tab  label="Simple Bookmarking" {...a11yProps(0)}/>   
                     <Tab  label="Speedy Searching" />
-                    <Tab  label="Easy Sharing" href="#" />
+                    <Tab  label="Easy Sharing"  />
                 </Tabs>
                 <TabPanel value={value} index={0}>
                 <SimpleBookmark>
@@ -95,6 +96,28 @@ function Features() {
                             <SBRight>
                             <LeftSection>
                     <LFH1 className="ptext">Search super fast</LFH1>
+                    <LFP className="ptext" >Organize your bookmarks however you like. Our simple drag-and-drop
+                        interface gives you complete control over how you manage your favourite 
+                        sites
+                    </LFP>
+                    <LFButtons>
+                        <Button  variant="contained" color="primary">More info</Button>
+                        
+                    </LFButtons>
+                </LeftSection>
+                            </SBRight>
+                        </SimpleBookmark>
+                </TabPanel>
+
+                {/* TabPanel3 */}
+                <TabPanel value={value} index={2}>
+                <SimpleBookmark>
+                            <SBLeft>
+                                <SBLImage src={tab3}/>
+                            </SBLeft>
+                            <SBRight>
+                            <LeftSection>
+                    <LFH1 className="ptext">Share everywhere</LFH1>
                     <LFP className="ptext" >Organize your bookmarks however you like. Our simple drag-and-drop
                         interface gives you complete control over how you manage your favourite 
                         sites
