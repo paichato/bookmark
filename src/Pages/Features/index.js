@@ -95,10 +95,11 @@ function Features() {
                             </SBLeft>
                             <SBRight>
                             <LeftSection>
-                    <LFH1 className="ptext">Search super fast</LFH1>
-                    <LFP className="ptext" >Organize your bookmarks however you like. Our simple drag-and-drop
-                        interface gives you complete control over how you manage your favourite 
-                        sites
+                    <LFH1 className="ptext">Intelligent search</LFH1>
+                    <LFP className="ptext" >Our powerful search feature will help 
+                                            you find saved sites in no time at all.
+                                            No need to trawl through all of your 
+                                            bookmarks.
                     </LFP>
                     <LFButtons>
                         <Button  variant="contained" color="primary">More info</Button>
@@ -117,10 +118,11 @@ function Features() {
                             </SBLeft>
                             <SBRight>
                             <LeftSection>
-                    <LFH1 className="ptext">Share everywhere</LFH1>
-                    <LFP className="ptext" >Organize your bookmarks however you like. Our simple drag-and-drop
-                        interface gives you complete control over how you manage your favourite 
-                        sites
+                    <LFH1 className="ptext">Share your bookmarks</LFH1>
+                    <LFP className="ptext" >Easily share your bookmarks
+                                        and collections with others. Create
+                                        a sharable link that you can send at
+                                        the click of a button.
                     </LFP>
                     <LFButtons>
                         <Button  variant="contained" color="primary">More info</Button>
