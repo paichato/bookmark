@@ -29,15 +29,31 @@ p{
 `
 
 export const FeaturesBody=styled.div`
-
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 `
 export const SimpleBookmark=styled.div`
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+align-items:center;
+width:100vw;
 
+.ptext{
+    text-align:left;
+}
 `
 
 export const SBLeft=styled.div`
 
 `
 export const SBRight=styled.div`
+
+`
+
+export const SBLImage=styled.img`
+
 
 `

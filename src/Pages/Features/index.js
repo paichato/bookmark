@@ -1,9 +1,9 @@
 import { Box, Button, Tab, Tabs, Typography } from '@material-ui/core';
 import React, { useState } from 'react'
-import { FeaturesBody, FeaturesHeader, FeaturesSection, SBLeft, SBRight, SimpleBookmark } from './FeaturesElements'
+import { FeaturesBody, FeaturesHeader, FeaturesSection, SBLeft, SBLImage, SBRight, SimpleBookmark } from './FeaturesElements'
 import {twitterTabsStylesHook} from '@mui-treasury/styles/tabs';
 import { LeftSection, LFButtons, LFH1, LFP } from '../Hero/HeroElemnts';
-
+import tab1 from '../../assets/illustration-features-tab-1.svg';
 
 function Features() {
 
@@ -66,17 +66,17 @@ function Features() {
                 <TabPanel value={value} index={0}>
                 <SimpleBookmark>
                             <SBLeft>
-
+                                <SBLImage src={tab1}/>
                             </SBLeft>
                             <SBRight>
                             <LeftSection>
-                    <LFH1>Bookmark in one click</LFH1>
-                    <LFP>Organize your bookmarks however you like. Our simple drag-and-drop
+                    <LFH1 className="ptext">Bookmark in one click</LFH1>
+                    <LFP className="ptext" >Organize your bookmarks however you like. Our simple drag-and-drop
                         interface gives you complete control over how you manage your favourite 
                         sites
                     </LFP>
                     <LFButtons>
-                        <Button  variant="contained" color="primary">Get it on Chrome</Button>
+                        <Button  variant="contained" color="primary">More info</Button>
                         
                     </LFButtons>
                 </LeftSection>
