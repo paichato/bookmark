@@ -9,6 +9,20 @@ flex-direction:row;
 justify-content:space-between;
 align-items:center;
 
+@media all and (max-width: 800px) {
+  .navigation {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .navigation {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
 Button{
     color:red;
     fill:red;

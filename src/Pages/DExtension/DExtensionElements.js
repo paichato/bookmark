@@ -12,21 +12,35 @@ height:900px;
 
 export const Cards=styled.div`
 margin-top:50px;
-display:flex;
+/* display:flex;
 flex-direction:row;
 justify-content:space-around;
 flex-flow: row wrap;
+align-items:baseline; */
+/* flex-grow:2; */
+
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:30px;
 
 width:80vw;
 
 #card2{
-
+     margin-top:40px;
+     
+     
+}
+#card3{
+     margin-top:80px;
+     
+     
 }
 
 .card{
+    height:385px;
     gap:5vh;
     border-radius:12px;
-    box-shadow: 0px 12px 18px rgba(0,0,100,0.2);
+    box-shadow: 0px 18px 18px rgba(0,0,150,0.1);
 }
 
 .cardz{
@@ -34,6 +48,7 @@ width:80vw;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+   
 }
 
 h2{
@@ -57,6 +72,15 @@ p{
         border:2px solid var(--soft-blue);
     }
 }
+
+
+
+`
+
+export const CardsContainer=styled.div`
+display:flex;
+flex-direction:column;
+/* justify-conten */
 
 `
 
