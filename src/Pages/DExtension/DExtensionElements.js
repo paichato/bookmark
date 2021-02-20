@@ -14,8 +14,17 @@ export const Cards=styled.div`
 margin-top:50px;
 display:flex;
 flex-direction:row;
+justify-content:space-around;
+flex-flow: row wrap;
+
+width:80vw;
+
+#card2{
+
+}
 
 .card{
+    gap:5vh;
     border-radius:12px;
     box-shadow: 0px 12px 18px rgba(0,0,100,0.2);
 }

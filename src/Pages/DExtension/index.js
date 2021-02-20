@@ -9,9 +9,9 @@ function Extension() {
     return (
         <>
          <DExtension>
-            <FeaturesHeader>
+            <FeaturesHeader style={{textAlign:"center"}}>
                 <h1>Download the extension</h1>
-                <p>We've got more browsers in the pipeline.
+                <p style={{textAlign:"center"}}>We've got more browsers in the pipeline.
                     Please do let us know if you've got a 
                     favourite you'd like us to prioritize.
                 </p>
@@ -30,7 +30,36 @@ function Extension() {
                     </CardContent>
                     
                 </Card>
-                <Box/>
+
+
+                {/* Card2 */}
+                <Card className="card" id="card2" >
+                    <CardContent className="cardz">
+                        <CardImage src={chrome} alt="logo-chrome"/>
+                        <h2>Add to Chrome</h2>
+                        <p>Minium version 6.2</p>
+                        <Dots src={dotsimg}/>
+                        <CardActions>
+                            <Button className="btn" variant="contained" >Add & Install Extension</Button>
+                        </CardActions>
+
+                    </CardContent>
+                    
+                </Card>
+                <Card className="card" >
+                    <CardContent className="cardz">
+                        <CardImage src={chrome} alt="logo-chrome"/>
+                        <h2>Add to Chrome</h2>
+                        <p>Minium version 6.2</p>
+                        <Dots src={dotsimg}/>
+                        <CardActions>
+                            <Button className="btn" variant="contained" >Add & Install Extension</Button>
+                        </CardActions>
+
+                    </CardContent>
+                    
+                </Card>
+                
             </Cards>
         </DExtension>   
         </>
