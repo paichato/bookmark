@@ -2,6 +2,8 @@ import { Box, Button, Card, CardActions, CardContent } from '@material-ui/core'
 import React from 'react'
 import { FeaturesHeader } from '../Features/FeaturesElements'
 import { CardImage, Cards, DExtension, Dots } from './DExtensionElements'
+import chrome from '../../assets/logo-chrome.svg';
+import dotsimg from '../../assets/bg-dots.svg';
 
 function Extension() {
     return (
@@ -15,19 +17,20 @@ function Extension() {
                 </p>
             </FeaturesHeader>
             <Cards>
-                <Card>
-                    <CardContent>
-                        <CardImage/>
+                <Card className="card" >
+                    <CardContent className="cardz">
+                        <CardImage src={chrome} alt="logo-chrome"/>
                         <h2>Add to Chrome</h2>
                         <p>Minium version 6.2</p>
-                        <Dots/>
+                        <Dots src={dotsimg}/>
                         <CardActions>
                             <Button className="btn" variant="contained" >Add & Install Extension</Button>
                         </CardActions>
 
                     </CardContent>
+                    
                 </Card>
-                <Box></Box>
+                <Box/>
             </Cards>
         </DExtension>   
         </>

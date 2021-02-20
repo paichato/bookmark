@@ -7,23 +7,37 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-
+height:900px;
 `
 
 export const Cards=styled.div`
+margin-top:50px;
 display:flex;
 flex-direction:row;
 
+.card{
+    border-radius:12px;
+    box-shadow: 0px 12px 18px rgba(0,0,100,0.2);
+}
 
-h1{
+.cardz{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h2{
     color:var(--very-dark-blue);
+    padding-top:30px;
 }
 p{
     color:var(--grayish-blue);
+    padding-top:20px;
 }
 
 .btn{
-    margin-left:20px;
+    padding-top:10px;
     background-color:var(--soft-blue);
     color:white;
     border-color:var(--very-dark-blue);
@@ -38,10 +52,11 @@ p{
 `
 
 export const CardImage=styled.img`
-
+padding-top:30px;
 
 `
 export const Dots=styled.img`
-
+padding:30px 0 10px 0;
+margin-bottom:10px;
 
 `
