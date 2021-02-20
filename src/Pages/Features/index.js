@@ -7,6 +7,7 @@ import tab1 from '../../assets/illustration-features-tab-1.svg';
 
 function Features() {
 
+    //Component of tabs-> tabs containers
     function TabPanel(props) {
         const { children, value, index, ...other } = props;
       
@@ -28,7 +29,7 @@ function Features() {
       }
       
       
-      
+      //each tab content function to scroll
       function a11yProps(index) {
         return {
           id: `scrollable-force-tab-${index}`,
