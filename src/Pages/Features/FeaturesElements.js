@@ -33,6 +33,10 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
+
+.tabs{
+    margin-top:50px;
+}
 `
 export const SimpleBookmark=styled.div`
 display:flex;
@@ -40,6 +44,7 @@ flex-direction:row;
 justify-content:space-evenly;
 align-items:center;
 width:100vw;
+margin-top:50px;
 
 .ptext{
     text-align:left;
