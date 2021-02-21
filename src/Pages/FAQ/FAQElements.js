@@ -13,14 +13,18 @@ height:900px;
 
 
 .accordion{
-    /* width:40vw; */
-    
-    border-top:1px solid rgba(0,0,0,0.1);
-    border-bottom:1px solid rgba(0,0,0,0.1);
+   
+    border-top:1px solid rgba(0,0,0,0.01);
+    /* border-bottom:1px solid rgba(0,0,0,0.1); */
     box-shadow:none;
     background:white;
     color:var(--very-dark-blue);
     
+    
+}
+
+#last-acc{
+    border-bottom:1px solid rgba(0,0,0,0.1);
 }
 .Mui-expanded .exp{
     fill:#ff4569;
@@ -33,13 +37,18 @@ h4{
         color:#ff4569;
     }
 }
-p{
+.accordion p{
     color:var(--grayish-blue);
+    text-align:justify;
 }
 
+
+Button{
+    margin-top:50px;
+}
 `
 
 export const FAQContent=styled.div`
-width:30vw;
+width:40vw;
 margin-top:50px;
 `
