@@ -35,6 +35,7 @@ body{
     --soft-red:hsl(0, 94%, 66%);
     --grayish-blue:hsl(229, 8%, 60%);
     --very-dark-blue:hsl(229, 31%, 21%);
+    --red:#ff4569;
 }
 
 

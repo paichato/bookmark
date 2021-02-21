@@ -10,11 +10,11 @@ function Footer() {
                 <h2>Saty up-to-date with what we're doing</h2>
                 <form>
                     <FormControl>
-                        <TextField defaultValue="email@example.com">
+                        <TextField defaultValue="email@example.com" variant="outlined">
                             
                         </TextField>
                     </FormControl>
-                    <Button>Contact Us</Button>
+                    <Button variant="contained" >Contact Us</Button>
                 </form>
             </ContactUs>
 
