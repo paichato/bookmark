@@ -27,6 +27,7 @@ form{
     flex-direction:row;
     justify-content:center;
     align-items:center;
+    margin-bottom:100px;
 
     Button{
     color:var(--soft-blue);
@@ -40,6 +41,18 @@ form{
     .txtF{
         color:white;
         padding-right:20px;
+        /* border: 1px solid rgba(300,300,300,0.9); */
+        outline:none;
+    }
+
+    .MuiTextField-root{
+        color:white;
+        background:white;
+        
+    }
+    .MuiInput-root{
+        border:none;
+        background:white;
     }
 }
 
