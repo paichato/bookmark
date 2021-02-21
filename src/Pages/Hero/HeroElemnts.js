@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import logo from '../../assets/logo-bookmark.svg'
-import {red} from '@material-ui/core/colors/red'
+
 
 export const NavBar=styled.nav`
 
@@ -8,6 +7,8 @@ display:flex;
 flex-direction:row;
 justify-content:space-between;
 align-items:center;
+position:sticky;
+z-index:4;
 
 @media all and (max-width: 800px) {
   .navigation {
