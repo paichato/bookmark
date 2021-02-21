@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const ContactUs=styled.div`
 background:var(--soft-blue);
-color:white;
+
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -13,10 +13,12 @@ align-items:center;
 
 p{
     margin-top:50px;
+    color:white;
 }
 
 h2{
     margin-top:50px;
+    color:white;
 }
 
 form{
@@ -25,14 +27,20 @@ form{
     flex-direction:row;
     justify-content:center;
     align-items:center;
-}
 
-Button{
+    Button{
     color:var(--soft-blue);
 
-    &:hover{
-        color:
+        &:hover{
+            color:#ff4569;
+        }
+    }
+
+    .txtF{
+        color:white;
     }
 }
+
+
 
 `

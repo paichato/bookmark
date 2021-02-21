@@ -17,7 +17,7 @@ export default createGlobalStyle`
 }
 
 body{
-    padding: 5vh 10vw 0px 10vw;
+    /* padding: 5vh 10vw 0px 10vw; */
 }
 
 html{

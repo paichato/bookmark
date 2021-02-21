@@ -10,7 +10,7 @@ function Footer() {
                 <h2>Saty up-to-date with what we're doing</h2>
                 <form>
                     <FormControl>
-                        <TextField defaultValue="email@example.com" variant="outlined">
+                        <TextField className="txtF" defaultValue="email@example.com" variant="outlined">
                             
                         </TextField>
                     </FormControl>

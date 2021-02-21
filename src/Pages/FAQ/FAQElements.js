@@ -11,6 +11,7 @@ align-items:center;
 text-align:center;
 height:900px;
 
+padding: 5vh 10vw 0px 10vw;
 
 .accordion{
    

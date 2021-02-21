@@ -10,6 +10,8 @@ align-items:center;
 justify-content:center;
 text-align:center;
 /* height:900px; */
+
+padding: 5vh 10vw 0px 10vw;
 `
 export const FeaturesHeader=styled.div`
 width:40vw;

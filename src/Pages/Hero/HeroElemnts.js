@@ -9,6 +9,7 @@ justify-content:space-between;
 align-items:center;
 position:sticky;
 z-index:4;
+padding: 5vh 10vw 0px 10vw;
 
 @media all and (max-width: 800px) {
   .navigation {
@@ -66,6 +67,8 @@ justify-content:space-between;
 align-items:center;
 
 margin-top:15vh;
+
+padding: 5vh 10vw 0px 10vw;
 /* position:grid;
 object-position:center; */
 
