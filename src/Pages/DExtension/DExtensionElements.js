@@ -39,6 +39,7 @@ width:80vw;
 }
 
 .card{
+    max-width:390px;
     height:385px;
     gap:5vh;
     border-radius:12px;

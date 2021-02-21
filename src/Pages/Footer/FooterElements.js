@@ -30,6 +30,7 @@ form{
 
     Button{
     color:var(--soft-blue);
+    height:55px;
 
         &:hover{
             color:#ff4569;
@@ -38,6 +39,7 @@ form{
 
     .txtF{
         color:white;
+        padding-right:20px;
     }
 }
 
