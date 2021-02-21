@@ -20,9 +20,9 @@ function Hero() {
                 
                 <NavLinks>
                     <NavMenu useStyles={usePlainNavigationMenuStyles}>
-                        <NavItem className="navs">FEATURES</NavItem>
-                        <NavItem className="navs">PRICING</NavItem>
-                        <NavItem className="navs">CONTACT</NavItem>
+                        <NavItem className="navs" href="#features" rel="noreffer noopener">FEATURES</NavItem>
+                        <NavItem className="navs" href="#extension" rel="noreffer noopener" >PRICING</NavItem>
+                        <NavItem className="navs" href="#faq" rel="noreffer noopener" >CONTACT</NavItem>
                         <NavItem className="navs-b">
                             <Button variant="outlined" color="secondary" style={{color:"red"}} >
                             Login

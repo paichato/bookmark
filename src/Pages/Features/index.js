@@ -49,7 +49,7 @@ function Features() {
     };
     return (
         <>
-        <FeaturesSection>
+        <FeaturesSection id="features">
             <FeaturesHeader>
                 <h1>Features</h1>
                 <p>Our aim is to make it 

@@ -10,7 +10,7 @@ import opera from '../../assets/logo-opera.svg';
 function Extension() {
     return (
         <>
-         <DExtension>
+         <DExtension id="extension">
             <FeaturesHeader style={{textAlign:"center"}}>
                 <h1>Download the extension</h1>
                 <p style={{textAlign:"center"}}>We've got more browsers in the pipeline.
