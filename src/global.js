@@ -13,6 +13,8 @@ export default createGlobalStyle`
     margin:0;
     font-family: 'Rubik', sans-serif;
     border:0;
+    font-smooth:auto;
+    -webkit-font-smoothing:antialiased;
     
 }
 
