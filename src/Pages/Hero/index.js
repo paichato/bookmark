@@ -33,7 +33,7 @@ function Hero() {
             </NavBar>
 
             <HeroSection>
-                <LeftSection data-aos="fade-right" data-aos-duration="900">
+                <LeftSection data-aos="fade-right" data-aos-duration="1000">
                     <LFH1 >A Simple Bookmark Manager</LFH1>
                     <LFP >A clean and simple interface to
                          organize your favorite websites.

@@ -49,7 +49,7 @@ function Features() {
     };
     return (
         <>
-        <FeaturesSection id="features">
+        <FeaturesSection id="features" data-aos="fade-up" data-aos-duration="1000" >
             <FeaturesHeader>
                 <h1>Features</h1>
                 <p>Our aim is to make it 
