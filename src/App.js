@@ -4,8 +4,12 @@ import Features from "./Pages/Features";
 import Extension from "./Pages/DExtension";
 import FAQ from "./Pages/FAQ";
 import Footer from "./Pages/Footer";
+import Aos from 'aos';
+
+
 
 function App() {
+  Aos.init();
   return (
     <>
       <Hero/>
