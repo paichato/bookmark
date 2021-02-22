@@ -57,10 +57,14 @@ form{
         background:white;
         border:none;
         border-radius:7px;
+       
     }
     .MuiInput-root{
         border:none;
         background:white;
+    }
+    .MuiInputBase-input{
+        color:var(--grayish-blue);
     }
 }
 

@@ -26,6 +26,7 @@ html{
     max-width:100vw;
     max-height:100vh;
     background:white;
+    scroll-behavior:smooth;
 }
 
 body{
