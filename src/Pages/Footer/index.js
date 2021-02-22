@@ -12,7 +12,7 @@ import tw from '../../assets/icon-twitter.svg';
 function Footer() {
     return (
         <>
-            <ContactUs >
+            <ContactUs id="contactus">
                 <p>35,000+ ALREADY JOINED</p>
                 <h2>Saty up-to-date with what we're doing</h2>
                 <form>
@@ -33,7 +33,7 @@ function Footer() {
                 
                 <NavItem className="navs" href="#features" rel="noreffer noopener">FEATURES</NavItem>
                 <NavItem className="navs" href="#extension" rel="noreffer noopener" >PRICING</NavItem>
-                <NavItem className="navs" href="#faq" rel="noreffer noopener" >CONTACT</NavItem>
+                <NavItem className="navs" href="#contactus" rel="noreffer noopener" >CONTACT</NavItem>
                 </NavMenu>
                
                 </div>
