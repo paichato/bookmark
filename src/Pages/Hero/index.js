@@ -33,19 +33,19 @@ function Hero() {
             </NavBar>
 
             <HeroSection>
-                <LeftSection>
-                    <LFH1>A Simple Bookmark Manager</LFH1>
-                    <LFP>A clean and simple interface to
+                <LeftSection data-aos="fade-right" data-aos-duration="900">
+                    <LFH1 >A Simple Bookmark Manager</LFH1>
+                    <LFP >A clean and simple interface to
                          organize your favorite websites.
                           Open a new Browser tab and see
                            your sites load instantly. Try
                             it for free.</LFP>
-                    <LFButtons>
+                    <LFButtons >
                         <Button  variant="outlined" color="primary">Get it on Chrome</Button>
                         <Button className="btn-rg" variant="outlined" color="secondary">Get it on Firefox</Button>
                     </LFButtons>
                 </LeftSection>
-                <RightSection>
+                <RightSection data-aos="fade-left">
                     <RImage src={rimage}/>
                 </RightSection>
             </HeroSection>
