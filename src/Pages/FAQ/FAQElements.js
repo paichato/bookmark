@@ -11,6 +11,7 @@ align-items:center;
 text-align:center;
 height:900px;
 
+
 padding: 5vh 10vw 0px 10vw;
 
 .accordion{
@@ -52,4 +53,5 @@ Button{
 export const FAQContent=styled.div`
 width:40vw;
 margin-top:50px;
+overflow-y:scroll;
 `
