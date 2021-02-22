@@ -74,8 +74,9 @@ function FAQ() {
           </AccordionDetails>
 
                 </Accordion>
-                <Button variant="contained" color='primary'>More info</Button>
+                
             </FAQContent>
+            <Button variant="contained" color='primary'>More info</Button>
         </FAQSection>
             
         </>
