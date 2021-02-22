@@ -7,7 +7,7 @@ import { FAQContent, FAQSection } from './FAQElements'
 function FAQ() {
     return (
         <>
-        <FAQSection id="faq">
+        <FAQSection id="faq" data-aos="fade-up" data-aos-duration="1000">
         <FeaturesHeader>
                 <h1>Frequently Asked QUestions</h1>
                 <p>Here are some of our FAQs.If

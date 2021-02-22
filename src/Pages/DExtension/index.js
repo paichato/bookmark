@@ -12,7 +12,7 @@ function Extension() {
     
     return (
         <>
-         <DExtension id="extension" data-aos="fade-up" data-aos-duration="600" >
+         <DExtension id="extension" data-aos="fade-up" data-aos-duration="600" data-aos-once="false">
             <FeaturesHeader style={{textAlign:"center"}}>
                 <h1>Download the extension</h1>
                 <p style={{textAlign:"center"}}>We've got more browsers in the pipeline.
@@ -22,7 +22,7 @@ function Extension() {
             </FeaturesHeader>
             <CardsContainer>
             <Cards>
-                <Card className="card" data-aos="fade-up" data-aos-delay="300" >
+                <Card className="card" data-aos="fade-up" data-aos-delay="300" data-aos-once="false" >
                     <CardContent className="cardz">
                         <CardImage src={chrome} alt="logo-chrome"/>
                         <h2>Add to Chrome</h2>
@@ -38,7 +38,7 @@ function Extension() {
 
 
                 {/* Card2 */}
-                <Card className="card" id="card2" data-aos="fade-up" data-aos-delay="500" >
+                <Card className="card" id="card2" data-aos="fade-up" data-aos-delay="500" data-aos-once="false" >
                     <CardContent className="cardz">
                         <CardImage src={firefox} alt="logo-chrome"/>
                         <h2>Add to Firfox</h2>
@@ -51,7 +51,7 @@ function Extension() {
                     </CardContent>
                     
                 </Card>
-                <Card className="card" id="card3" data-aos="fade-up" data-aos-delay="700"  >
+                <Card className="card" id="card3" data-aos="fade-up" data-aos-delay="700" data-aos-once="false" >
                     <CardContent className="cardz">
                         <CardImage src={opera} alt="logo-chrome"/>
                         <h2>Add to Opera</h2>

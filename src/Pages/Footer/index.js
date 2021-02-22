@@ -12,7 +12,7 @@ import tw from '../../assets/icon-twitter.svg';
 function Footer() {
     return (
         <>
-            <ContactUs>
+            <ContactUs >
                 <p>35,000+ ALREADY JOINED</p>
                 <h2>Saty up-to-date with what we're doing</h2>
                 <form>
