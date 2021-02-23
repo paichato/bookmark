@@ -55,5 +55,5 @@ Button{
 export const FAQContent=styled.div`
 width:40vw;
 margin-top:50px;
-overflow-y:scroll;
+overflow-y:auto;
 `
